@@ -8,7 +8,7 @@ This project implements **Clean Architecture** with clear separation of concerns
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    Presentation Layer                        │
+│                    Presentation Layer                       │
 │  ┌─────────────────┐              ┌─────────────────┐       │
 │  │  ECommerce.API  │              │  ECommerce.Web  │       │
 │  │   (REST API)    │              │   (MVC Web App) │       │
@@ -18,19 +18,19 @@ This project implements **Clean Architecture** with clear separation of concerns
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
 │                     Application Layer                       │
-│                   ┌─────────────────┐                      │
-│                   │ ECommerce.Core  │                      │
-│                   │ (Business Logic)│                      │
-│                   └─────────────────┘                      │
+│                   ┌─────────────────┐                       │
+│                   │ ECommerce.Core  │                       │
+│                   │ (Business Logic)│                       │
+│                   └─────────────────┘                       │
 └─────────────────────────────────────────────────────────────┘
                               │
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
 │                  Infrastructure Layer                       │
-│                ┌─────────────────────┐                     │
-│                │ECommerce.Infrastructure│                    │
-│                │(Data Access & External)│                    │
-│                └─────────────────────┘                     │
+│                ┌────────────────────────┐                   │
+│                │ECommerce.Infrastructure│                   │
+│                │(Data Access & External)│                   │
+│                └────────────────────────┘                   │
 └─────────────────────────────────────────────────────────────┘
 ```
 
