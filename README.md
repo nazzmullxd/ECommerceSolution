@@ -1,10 +1,10 @@
 # ECommerce Solution
 
-A modern e-commerce application built with .NET, following Clean Architecture principles for maintainability, testability, and scalability.
+A modern e-commerce application built with .NET, following Onion Architecture principles for maintainability, testability, and scalability.
 
 ## 🏗️ Architecture
 
-This project implements **Clean Architecture** with clear separation of concerns across multiple layers:
+This project implements **Onion Architecture** with clear separation of concerns across multiple layers:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -82,7 +82,7 @@ This project implements **Clean Architecture** with clear separation of concerns
 ## 🛠️ Technology Stack
 
 - **Framework**: .NET 8
-- **Architecture**: Clean Architecture
+- **Architecture**: Onion Architecture
 - **Database**: SQL Server with Entity Framework Core
 - **Authentication**: ASP.NET Core Identity
 - **API**: ASP.NET Core Web API
@@ -97,7 +97,7 @@ This project implements **Clean Architecture** with clear separation of concerns
 - Order processing
 - RESTful API endpoints
 - Responsive web interface
-- Clean separation of concerns
+- Onion separation of concerns
 - Comprehensive testing suite
 
 ## 🤝 Contributing
