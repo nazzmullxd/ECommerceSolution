@@ -68,7 +68,7 @@ This project implements **Onion Architecture** with clear separation of concerns
 ## 🚀 Getting Started
 
 ### Prerequisites
-- .NET 8.0 SDK or later
+- .NET 10.0 SDK or later
 - SQL Server (LocalDB or full instance)
 - Visual Studio 2022 or VS Code
 
@@ -81,7 +81,7 @@ This project implements **Onion Architecture** with clear separation of concerns
 
 ## 🛠️ Technology Stack
 
-- **Framework**: .NET 8
+- **Framework**: .NET 10
 - **Architecture**: Onion Architecture
 - **Database**: SQL Server with Entity Framework Core
 - **Authentication**: ASP.NET Core Identity
