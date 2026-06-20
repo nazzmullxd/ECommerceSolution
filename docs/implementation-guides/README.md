@@ -8,6 +8,7 @@ Use this folder for beginner-friendly build instructions.
 | --- | --- |
 | `feature-module-template.md` | Standard template for implementing any feature module. |
 | `ai-assisted-development-playbook.md` | How to safely hand one small module at a time to an AI coding tool. |
+| `phase-planning-prompts.md` | Seven copy-ready prompts for generating modular Phase 0-6 instruction packages. |
 | `testing-guide.md` | Unit, integration, and demo test expectations. |
 | `coding-conventions.md` | Naming, folders, dependency rules, DTO conventions, and error handling. |
 | `local-development-guide.md` | Local setup, database setup, migrations, seed data, and troubleshooting. |
